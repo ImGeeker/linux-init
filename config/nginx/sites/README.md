@@ -2,6 +2,7 @@
 所有站点必须以域名命名,以.conf结尾,如:
 
 > imhuzi.net.conf
+
 > read.imhuzi.net.conf
 
 注: 顶级域名默认包括www子域
@@ -35,4 +36,4 @@ sed 's/_DOMAIN_/imhuzi.net/' java.upstream.domain.tpl > imhuzi.net1
 sed 's/_PORT_/8080/' imhuzi.net1 > imhuzi.net && rm imhuzi.net1
 sed 's/_IP/192\.168\.1\.110/' imhuzi.net > imhuzi.net.conf && rm imhuzi.net
 ```
-#TODO 模板生成脚本 
+#### TODO 模板生成脚本 
